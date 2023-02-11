@@ -3,6 +3,26 @@
 *::before{
   box-sizing: border-box;
 }
+@font-face {
+	font-family: 'Georgia';
+	src: url('../../assets/fonts/georgia.eot');
+	src: local('☺'), url('../../assets/fonts/georgia.woff') format('woff'), url('../../assets/fonts/georgia.ttf') format('truetype'), url('../../assets/fonts/georgia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Arial';
+	src: url('../../assets/fonts/arial.eot');
+	src: local('☺'), url('../../assets/fonts/arial.woff') format('woff'), url('../../assets/fonts/arial.ttf') format('truetype'), url('../../assets/fonts/arial.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.georgia{
+    font-family: 'Georgia';
+}
+.arial{
+    font-family: 'Arial';
+}
 body{
     background: #E5E5E5;
 }
@@ -25,6 +45,9 @@ body{
     height: 120px;
     margin-left: 40px;
     color: #F1CDB3;
+}
+.logo{
+    text-decoration: solid;
 }
 .header-logo:hover{
     cursor: pointer;
