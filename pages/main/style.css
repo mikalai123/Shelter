@@ -101,7 +101,6 @@ body{
     text-decoration: solid;
     border-color: #F1CDB3;
 }
-
 .hamburger{
     width: 30px;
     height: 25px;
@@ -117,8 +116,16 @@ body{
     margin: 8px -8px;
     transition: all 0.4s ease-in-out;
 }
-
-
+.hamburger.open .line1 {
+    transform: rotate(-90deg) translate(-10px, 10px);
+  }
+.hamburger.open .line2 {
+    transform: rotate(90deg) translate(0px, 1px);
+}
+  
+.hamburger.open .line3 {
+    transform: rotate(90deg) translate(-10px, 10px);
+}
 .start-screen{
     padding-left: 40px;
     margin-top: -12px;
@@ -808,8 +815,39 @@ body{
     .hamburger{
         display: block;
     }
-    .nav{
-        display: none;
+    .nav-list{
+        display: block;
+        width: 620px;
+        height: 1024px;
+        background-color: #000;
+        position: fixed;
+        padding-top: 134px;
+        padding-left: 67px;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+    .nav-item {
+        width: 100%;
+        font-size: 34px;
+        word-spacing: 3px;
+    }
+    .nav-list.open {
+        transform: translateX(0);
+        margin-left: -242px;
+        margin-top: -53px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 320px;
+        gap: 61px;
+    }
+    .header-logo.open{
+        margin-left: 150px;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        z-index: 2;
+
     }
     .header-inner {
         justify-content: space-between;
@@ -892,7 +930,38 @@ body{
     .footer-img {
         width: 100%;
     }
-
+}
+@media (max-width: 440px){
+    .header-logo.open {
+        margin-left: 76px;
+    }
+    .header-inner.open{
+        transform: translateX(0);
+        margin-left: -243px;
+        margin-top: -50px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 320px;
+        gap: 61px;
+    }
+    .header-logo.open{
+        margin-left: 78px;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        z-index: 2;
+    }
+    .nav-list.open {
+        margin-top: -153px;
+        gap: 53px;
+        padding: 0;
+    }
+}
+@media (max-width: 360px){
+    .header-logo.open{
+        margin-left: 23px;
+    }
 }
 @media (max-width: 320px) {
     .btn-title {
@@ -1104,5 +1173,9 @@ body{
     .footer-puppy {
         margin-top: 0px;
     }
-
+    .nav-list.open {
+    margin-left: -242px;
+    }
 }
+
+
