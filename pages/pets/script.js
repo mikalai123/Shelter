@@ -11,6 +11,7 @@ function toggleMenu() {
 
 }
 hamburger.addEventListener('click', toggleMenu);
+nav.addEventListener('click', toggleMenu);
 
 let pets = [
   {
