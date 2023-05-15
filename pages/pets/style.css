@@ -794,6 +794,9 @@ body{
     .block-pets {
         margin-left: 12px;
     }
+    .info-pet {
+        margin-bottom: 0px;
+    }
     .block-pets-name {
         margin-top: 10px;
     }
