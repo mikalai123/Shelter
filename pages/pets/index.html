@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../pets/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-inner">
+                <a class="logo" href="../main/index.html">
+                    <div class="header-logo">
+                        <h1  class="georgia header-title">Cozy House</h1>
+                        <p class="arial header-text">shelter for pets in Boston</p>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="arial nav-link" href="../main/index.html">About the selter</a></li>
+                        <li class="nav-item"><a class="arial about-link" href="#about">Out pets</a></li>
+                        <li class="nav-item" id="pets"><a class="arial nav-help nav-link" href="../main/index.html#help">Help the selter</a></li>
+                        <li class="nav-item"><a class="arial nav-contacts nav-link" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="about" class="container">
+        <div class="container wrapper-container">
+            <div class="start-container">
+                <section class="heading">
+                    <h3 class=" georgia heading-title">Our friends who <br> are looking for a house</h3>
+                </section>
+                <section class="card-container">
+                    <div class="grid grid1"></div>
+                    <div id="pet" class="pet"></div>
+                </section>
+                <section class="navigation">
+                    <div class="btn-menu">
+                        <button id="first" class="btn-left btn-left-left" disabled> &lt;&lt; </button>
+                        <button id="prev" class="btn-left btn-left-left" disabled> &lt; </button>
+                        <button id="centr" class="btn-left btn-left-centr">  </button>
+                        <button id="next" class="btn-left"> > </button>
+                        <button id="last" class="btn-left btn-right"> >> </button> 
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer id="contacts" class=" container footer">
+        <section class="footer-content">
+            <div class="contacts">
+                <div class="footer-title">
+                    <h3 class="footer-title1">For questions and suggestions</h3>
+                </div>
+                <div class="footer-mail">
+                    <a class="mail-href" href="https://mail.google.com/" target="_blank">
+                        <img class="mail-foto" src="../../assets/icons/icon-email.svg" alt="mail-foto">
+                        <p class="georgia mail-info">email@shelter.com</p>
+                    </a>
+                </div>
+                <div class="phone">
+                    <a class="phone-href" href="#!" target="_blank">
+                        <img class="phone-foto" src="../../assets/icons/icon-phone.svg" alt="phone-foto">
+                        <p class="georgia phone-info">+13 674 567 75 54</p>
+                    </a>
+                </div>
+            </div>
+            <div class="location">
+                <div class="footer-title">
+                    <h3 class="footer-title1 location-title">We are waiting for your visit</h3>
+                </div>
+                <div class="footer-mail footer-mail1">
+                    <a class="mail-href mail-href-boston" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
+                        <img class="mail-foto boston-foto" src="../../assets/icons/pin.svg" alt="mail-foto">
+                        <p class="georgia mail-info-boston">1 Central Street, Boston (entrance from the store)</p>
+                    </a>  
+                </div>
+                <div class="phone photo-london">
+                    <a class="mail-href" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
+                        <img class="phone-foto" src="../../assets/icons/pin.svg" alt="phone-foto">
+                        <p class="georgia phone-info-london">18 South Park, London </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="footer-puppy">
+            <img class="footer-img" src="../../assets/images/footer-puppy.png" alt="footer-img">
+        </div>
+    </footer>
+    <script src="../pets/script.js"></script>
+</body>
+</html>
