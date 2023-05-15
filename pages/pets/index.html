@@ -11,142 +11,91 @@
     <header class="header">
         <div class="container header-container">
             <div class="header-inner">
-                <div href="#about" class="header-logo">
-                    <h1  class="header-title">Cozy House</h1>
-                    <p class="header-text">shelter for pets in Boston</p>
-                </div>
+                <a class="logo" href="../main/index.html">
+                    <div class="header-logo">
+                        <h1  class="georgia header-title">Cozy House</h1>
+                        <p class="arial header-text">shelter for pets in Boston</p>
+                    </div>
+                </a>
                 <nav class="nav">
-                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#../../../main/index.html">About the selter</a></li>
-                    <li class="nav-item"><a class="about-link" href="#about">Out pets</a></li>
-                    <li class="nav-item" id="pets"><a class="nav-link" href="#../../../main/index.html#pets">Help the selter</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
-                 </ul>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="arial nav-link" href="#../../../main/index.html">About the selter</a></li>
+                        <li class="nav-item"><a class="arial about-link" href="#about">Out pets</a></li>
+                        <li class="nav-item" id="pets"><a class="arial nav-help nav-link" href="#../../../main/index.html#pets">Help the selter</a></li>
+                        <li class="nav-item"><a class="arial nav-contacts nav-link" href="#contacts">Contacts</a></li>
+                    </ul>
                 </nav>
-
+                <div class="hamburger">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
             </div>
-            
         </div>
-
     </header>
     <main id="about" class="container">
         <div class="container wrapper-container">
             <div class="start-container">
                 <section class="heading">
-                    <h3 class="heading-title">Our friends who <br> are looking for a house</h3>
+                    <h3 class=" georgia heading-title">Our friends who <br> are looking for a house</h3>
                 </section>
                 <section class="card-container">
-                    <div class="grid grid1">
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-katrine.jpg" alt="katrine">
-                            <a class="name-pet">Katrine</a>
-                            <button class="btn-slider" >Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-jennifer.jpg" alt="jennifer">
-                            <a class="name-pet">Jennifer</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-woody.jpg" alt="woody">
-                            <a class="name-pet">Woody</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/sophia.jpg" alt="woody">
-                            <a class="name-pet">Sophia</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-timmy.jpg" alt="katrine">
-                            <a class="name-pet">Timmy</a>
-                            <button class="btn-slider" >Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-charly.jpg" alt="jennifer">
-                            <a class="name-pet">Carly</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/pets-scarlet.jpg" alt="woody">
-                            <a class="name-pet">Scarlet</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                        <div class="slider-item">
-                            <img src="../../assets/images/freddie.jpg" alt="woody">
-                            <a class="name-pet">Freddie</a>
-                            <button class="btn-slider">Learn more</button>
-                        </div>
-                    </div>
+                    <div class="grid grid1"></div>
+                    <div id="pet" class="pet"></div>
                 </section>
                 <section class="navigation">
                     <div class="btn-menu">
-                        <button class="btn-left btn-left-left" disabled> << </button>
-                        <button class="btn-left btn-left-left" disabled> < </button>
-                        <button class="btn-left btn-left-centr"> 1 </button>
-                        <button class="btn-left"> > </button>
-                        <button class="btn-left btn-right"> >> </button> 
+                        <button id="first" class="btn-left btn-left-left" disabled> << </button>
+                        <button id="prev" class="btn-left btn-left-left" disabled> < </button>
+                        <button id="centr" class="btn-left btn-left-centr">  </button>
+                        <button id="next" class="btn-left"> > </button>
+                        <button id="last" class="btn-left btn-right"> >> </button> 
                     </div>
                 </section>
-    
             </div>
-            
-
         </div>
-        
-
-
-
-
-
-
-
     </main>
     <footer id="contacts" class=" container footer">
         <section class="footer-content">
             <div class="contacts">
                 <div class="footer-title">
-                    <h3>For questions and suggestions</h3>
+                    <h3 class="footer-title1">For questions and suggestions</h3>
                 </div>
                 <div class="footer-mail">
                     <a class="mail-href" href="mailto:vlad@htmlbook.ru?subject=Вопрос по HTML" target="_blank">
                         <img class="mail-foto" src="../../assets/icons/icon-email.svg">
-                        <p class="mail-info">email@shelter.com</p>
+                        <p class="georgia mail-info">email@shelter.com</p>
                     </a>
                 </div>
                 <div class="phone">
                     <a class="phone-href" href="#!" target="_blank">
                         <img class="phone-foto" src="../../assets/icons/icon-phone.svg">
-                        <p class="phone-info">+13 674 567 75 54</p>
+                        <p class="georgia phone-info">+13 674 567 75 54</p>
                     </a>
                 </div>
             </div>
-
-            
             <div class="location">
                 <div class="footer-title">
-                    <h3>We are waiting for your visit</h3>
+                    <h3 class="footer-title1 location-title">We are waiting for your visit</h3>
                 </div>
-                <div class="footer-mail">
-                    <a class="mail-href" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
-                        <img class="mail-foto" src="../../assets/icons/pin.svg">
-                        <p class="mail-info">1 Central Street, Boston (entrance from the store)</p>
-                    </a>
-                    
+                <div class="footer-mail footer-mail1">
+                    <a class="mail-href mail-href-boston" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
+                        <img class="mail-foto boston-foto" src="../../assets/icons/pin.svg">
+                        <p class="georgia mail-info-boston">1 Central Street, Boston (entrance from the store)</p>
+                    </a>  
                 </div>
-                <div class="phone">
+                <div class="phone photo-london">
                     <a class="mail-href" href="https://www.google.com/maps/@48.2065077,25.0428964,4z?hl=ru" target="_blank">
                         <img class="phone-foto" src="../../assets/icons/pin.svg">
-                        <p class="phone-info">18 South Park, London </p>
+                        <p class="georgia phone-info-london">18 South Park, London </p>
                     </a>
+                </div>
             </div>
-            
         </section>
-        
         <div class="footer-puppy">
-            <img src="../../assets/images/footer-puppy.png">
+            <img class="footer-img" src="../../assets/images/footer-puppy.png">
         </div>
-
     </footer>
+    <script src="../pets/script.js"></script>
 </body>
 </html>
