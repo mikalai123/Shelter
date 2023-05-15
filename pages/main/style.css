@@ -137,7 +137,10 @@ body{
     padding-top: 60px;
     padding-right: 38px;
 }
-.btn{
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 207px;
     height: 52px;
     border-radius: 30px;
@@ -345,9 +348,11 @@ body{
     cursor: pointer ;
 }
 .text-wrapper{
-    text-decoration: solid;
     color: #292929;
     font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .help{
     display: flex;
@@ -551,6 +556,7 @@ body{
     float: left;
 }
 .phone{
+    display: flex;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
