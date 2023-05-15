@@ -564,6 +564,7 @@ body{
     line-height: 34px;
     color: #F1CDB3;
     margin-top: 39px;
+    cursor: pointer;
 }
 .phone-info {
     margin-left: 58px;
