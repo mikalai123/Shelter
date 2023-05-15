@@ -129,9 +129,11 @@ body{
 }
 .start-screen{
     padding-left: 40px;
-    margin-top: -18px;
+    margin-top: -15px;
     line-height: 55.5px;
     max-width: 500px;
+    display: flex;
+    flex-flow: column;
 }
 .item-img{
     padding-top: 60px;
@@ -155,8 +157,8 @@ body{
     margin-top: 8px;
 }
 .btn-pets {
-    margin-top: 4px;
-    margin-left: -4px;
+    margin-top: 7px;
+    margin-left: 2px;
     letter-spacing: 0.6px;
 }
 .btn:hover{
@@ -479,7 +481,7 @@ body{
 .credit-icon{
     float: left;
     margin-top: 10px;
-    margin-left: 11px;
+    margin-left: 15px;
 }
 .credit-card{
     margin-left: 52px;
@@ -489,9 +491,20 @@ body{
 }
 .nomber-card{
     color: #545454;
-    margin-left: 15px;
+    margin-left: 61px;
     font-size: 22.1px;
-    margin-top: 8px;
+    margin-top: 4px;
+}
+.phone-card{
+    display: flex;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: #F1CDB3;
+    margin-top: 37px;
+    cursor: pointer;
 }
 .infornation{
     font-style: italic;
@@ -563,14 +576,16 @@ body{
     font-size: 23px;
     line-height: 34px;
     color: #F1CDB3;
-    margin-top: 39px;
+    margin-top: -24px;
     cursor: pointer;
 }
 .phone-info {
     margin-left: 58px;
+    margin-top: 2px;
 }
 .phone-info1 {
     margin-left: 41px;
+    margin-top: 1px;
 }
 .location{
     max-width: 302px;  
@@ -691,6 +706,7 @@ body{
     }
     .text-wrapper {
         letter-spacing: -0.2px;
+        margin-top: 3px;
     }
     .heading-help {
         align-items: center;
@@ -736,7 +752,7 @@ body{
     }
     .btn-pets{
         letter-spacing: 0.5px;
-        margin-left: -4px;    
+        margin-left: -31px;    
     }
     .item-img {
         max-width: 570px;
@@ -825,7 +841,10 @@ body{
         margin-left: 3px;
     }
     .nomber-card {
-        margin-top: 12px;
+        margin-top: 5px;
+    }
+    .phone-card {
+        margin-left: 1px;
     }
 }
 @media (max-width: 753px) {
@@ -1192,11 +1211,14 @@ body{
         margin-top: 15px;
     }
     .infornation {
-        margin-top: 18px;
+        margin-top: 20px;
+    }
+    .phone-card {
+        margin-left: 16px;
     }
     .credit-icon {
-        margin-left: 8px;
-        margin-top: 8px;
+        margin-left: 15px;
+        margin-top: 10px;
     }
     .credit-card {
         margin-left: 52px;
@@ -1228,13 +1250,14 @@ body{
         margin-left: 16px;
     }
     .phone {
-        margin-left: 18px;
+        margin-left: -1px;
+        margin-top: -28px;
     }
     .location {
        margin-top: -3px;
     }
     .footer-mail1 {
-        margin-top: 21px;
+        margin-top: 19px;
         margin-left: -9px;
     }
     .photo-london {
@@ -1262,7 +1285,8 @@ body{
     }
     .nomber-card {
         font-size: 17px;
-        margin-top: 8px;
+        margin-top: 4px;
+        margin-left: 1px;
     }
 }
 
