@@ -822,7 +822,10 @@ body{
         width: 275px;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 762px) {
+    .about-link{
+        height: 50px;
+    }
     .hamburger{
         display: block;
     }
@@ -1336,6 +1339,7 @@ body{
 .info-pet {
     padding-left: 0px;
     text-align: left;
+    margin-bottom: 0px;
 }
 .age {
     margin-left: -3px;
@@ -1411,6 +1415,7 @@ li {
     }
     .block-pets {
         margin-left: 10px;
+        min-height: 350px;
     }
     .block-pets-name {
         margin-top: 10px;
@@ -1462,7 +1467,6 @@ li {
     }
     .block-pets {
         margin-left: -10px;
-        height: 340px;
     }
     .block-pets-name {
         margin-top: 10px;
@@ -1474,7 +1478,7 @@ li {
     }
     .description {
         margin-left: 18px;
-        max-width: 241px;
+        max-width: 230px;
         margin-top: 22px;
         letter-spacing: 0.6px;
         font-size: 14px;
