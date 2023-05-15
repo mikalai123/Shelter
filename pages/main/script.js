@@ -138,6 +138,7 @@ function createElem() {
 
       let img = document.createElement('img');
       img.src = newArray[i].img;
+      img.alt = newArray[i].name;
       item.appendChild(img);
 
       let h3 = this.document.createElement('h3');
@@ -345,6 +346,7 @@ function createElemList() {
   
         let img = document.createElement('img');
         img.src = newArray[i].img;
+        img.alt = newArray[i].name;
         item.appendChild(img);
   
         let h3 = this.document.createElement('h3');

@@ -483,9 +483,10 @@ body{
     letter-spacing: 1.2px;
 }
 .nomber-card{
-    text-decoration: solid;
     color: #545454;
-    margin-left: -7px;
+    margin-left: 15px;
+    font-size: 22.1px;
+    margin-top: 8px;
 }
 .infornation{
     font-style: italic;
@@ -815,6 +816,9 @@ body{
     .footer-puppy {
         margin-top: 6px;
         margin-left: 3px;
+    }
+    .nomber-card {
+        margin-top: 12px;
     }
 }
 @media (max-width: 753px) {
@@ -1248,6 +1252,10 @@ body{
     }
     .nav-list.open {
     margin-left: -242px;
+    }
+    .nomber-card {
+        font-size: 17px;
+        margin-top: 8px;
     }
 }
 
